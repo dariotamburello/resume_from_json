@@ -2,10 +2,10 @@
   "basics": {
     "name": "Darío Nicolas Tamburello",
     "label": "Full Stack Developer",
-    "image": "/dariotamburello.bmp",
+    "image": "/avatar.webp",
     "email": "dariotamburello@gmail.com",
     "phone": "(54) 3515-174969",
-    "url": "https://github.com/dariotamburello",
+    "url": "https://dariotamburello.dev",
     "summary": "I am a FullStack developer with experience in JavaScript-based frameworks and libraries such as React, NodeJS, Typescript, etc, as well as .NET, C#, and both relational and non-relational databases. I am also proficient with DevOps tools like Git, Docker, and AWS. I have worked in teams of various sizes, adapting to different dynamics and work environments.",
     "location": {
       "address": "",
@@ -60,11 +60,11 @@
     {
       "name": "Freelance",
       "position": "Full Stack Developer",
-      "startDate": "2018-01",
+      "startDate": "2017-01",
       "endDate": "Today",
       "location": "Remote",
       "tasks": [
-        "Developed and maintained the website sabrosoweb.com.ar.",
+        "IT consulting for infrastructure and application maintenance.",
         "Developed personal and third-party projects using JavaScript-based languages: React, NodeJS, Typescript, and React Native.",
         "My projects: github.com/dariotamburello"
       ],
@@ -106,15 +106,15 @@
         "levels": [
           {
             "skill": "Javascript (Vanilla)",
-            "value": 8
+            "value": 9
           },
           {
             "skill": "React",
-            "value": 8
+            "value": 9
           },
           {
-            "skill": "Node",
-            "value": 8
+            "skill": "NodeJS",
+            "value": 9
           },
           {
             "skill": "Angular",
@@ -126,6 +126,10 @@
           },
           {
             "skill": "Typescript",
+            "value": 7
+          },
+          {
+            "skill": "ASP .NET",
             "value": 7
           },
           {

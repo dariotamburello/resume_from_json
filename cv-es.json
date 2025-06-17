@@ -2,10 +2,10 @@
   "basics": {
     "name": "Darío Nicolas Tamburello",
     "label": "Desarrollador Full Stack",
-    "image": "/dariotamburello.bmp",
+    "image": "/avatar.webp",
     "email": "dariotamburello@gmail.com",
     "phone": "(54) 3515-174969",
-    "url": "https://github.com/dariotamburello",
+    "url": "https://dariotamburello.dev",
     "summary": "Soy desarrollador FullStack con experiencia en frameworks y librerías basadas en Javascript como React, NodeJS, Typescript, etc, así como en .NET, C#, y bases de datos relacionales y no relacionales. También tengo conocimientos en herramientas DevOps como Git, Docker y AWS. He trabajado en equipos de diversos tamaños, adaptándome a distintas dinámicas y entornos de trabajo.",
     "location": {
       "address": "",
@@ -60,11 +60,11 @@
     {
       "name": "Freelance",
       "position": "Desarrollador Full Stack",
-      "startDate": "2018-01",
+      "startDate": "2017-01",
       "endDate": "Actualidad",
       "location": "Remote",
       "tasks": [
-        "Desarrollo y mantenimiento del sitio web www.sabrosoweb.com.ar.",
+        "Consultoría IT para el mantenimiento de infraestructura y aplicaciones.",
         "Desarrollo de proyectos personales y para terceros utilizando lenguajes basados en JavaScript: React, NodeJS, Angular, Typescript y React Native.",
         "Mis proyectos: github.com/dariotamburello."
       ],
@@ -106,15 +106,15 @@
         "levels": [
           {
             "skill": "Javascript (Vanilla)",
-            "value": 8
+            "value": 9
           },
           {
             "skill": "React",
-            "value": 8
+            "value": 9
           },
           {
-            "skill": "Node",
-            "value": 8
+            "skill": "NodeJS",
+            "value": 9
           },
           {
             "skill": "Angular",
@@ -126,6 +126,10 @@
           },
           {
             "skill": "Typescript",
+            "value": 7
+          },
+          {
+            "skill": "ASP .NET",
             "value": 7
           },
           {

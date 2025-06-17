@@ -2,6 +2,7 @@
 import GitHub from "src/icons/GitHub.astro";
 import LinkedIn from "src/icons/LinkedIn.astro";
 import Phone from "src/icons/Phone.astro";
+import WWW from "src/icons/www.astro";
 import Mail from "src/icons/Mail.astro";
 import type { SocialIcon } from "src/types";
 import WorldMap from "src/icons/WorldMap.astro";
@@ -39,6 +40,19 @@ const printInfo = [email, phone, url].filter(Boolean).join(" • ");
         <div
           class="no-print flex flex-row gap-2 pt-2 text-neutral-800 dark:text-neutral-300"
         >
+          {
+            url && (
+              <a
+                class="border-[1px] p-1 rounded-md border-slate-500 hover:bg-neutral-800/20 dark:hover:bg-neutral-600 transition-colors"
+                href={`${url}`}
+                title={`My website: ${url}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <WWW />
+              </a>
+            )
+          }
           {
             email && (
               <a
