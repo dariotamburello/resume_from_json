@@ -9,5 +9,5 @@
 ![Resum web capture](https://resume-portfolio-psi-lemon.vercel.app/preview.webp)
 
 > **Test it!**  
-> Access to: [https://resume-portfolio-psi-lemon.vercel.app/en/](https://cv.dariotamburello.dev/en/)  
+> Access to: [https://cv.dariotamburello.dev/en/](https://cv.dariotamburello.dev/en/)  
 > or donwload the code and `npm run dev`
