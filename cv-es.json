@@ -1,15 +1,12 @@
 {
   "basics": {
-    "name": "Darío Nicolas Tamburello",
-    "label": "Desarrollador Full Stack",
-    "image": "/avatar.webp",
+    "name": "Darío Nicolás Tamburello",
+    "label": "Senior Full Stack Software Engineer",
     "email": "dariotamburello@gmail.com",
-    "phone": "(54) 3515-174969",
+    "phone": "+54 3515 174969",
     "url": "https://dariotamburello.dev",
-    "summary": "Soy desarrollador FullStack con experiencia en frameworks y librerías basadas en Javascript como React, NodeJS, Typescript, etc, así como en .NET, C#, y bases de datos relacionales y no relacionales. También tengo conocimientos en herramientas DevOps como Git, Docker y AWS. He trabajado en equipos de diversos tamaños, adaptándome a distintas dinámicas y entornos de trabajo.",
+    "summary": "Senior Full Stack Software Engineer with a strong focus on JavaScript and TypeScript ecosystems, working across React and Node.js-based systems. Product-oriented engineer with solid backend ownership, experience building and maintaining production systems, and a strong background in infrastructure that informs architectural and scalability decisions. Comfortable working in remote, English-speaking environments and collaborating closely with product and design teams.",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Córdoba",
       "countryCode": "AR",
       "region": "Argentina"
@@ -29,138 +26,88 @@
   },
   "work_experience": [
     {
+      "name": "Current Company (Confidential)",
+      "position": "Full Stack Software Engineer (Contractor)",
+      "startDate": "2024-01",
+      "endDate": "Present",
+      "location": "Remote",
+      "tasks": [
+        "Develop and maintain backend services and APIs, focusing on reliability, maintainability, and production stability.",
+        "Implement features based on defined requirements, debugging and resolving complex issues across the stack.",
+        "Collaborate asynchronously with distributed teams in a remote environment.",
+        "Work extensively with existing codebases, improving structure, performance, and long-term maintainability."
+      ]
+    },
+    {
+      "name": "Plum",
+      "position": "Full Stack Software Engineer",
+      "startDate": "2022-06",
+      "endDate": "2024-01",
+      "location": "Remote (US-based team)",
+      "tasks": [
+        "Developed and maintained large-scale e-commerce platforms for a North American company using .NET and JavaScript-based frontends.",
+        "Focused on frontend development, improving UX/UI across desktop and mobile experiences.",
+        "Implemented backend and back-office features, including third-party API integrations (payments, shipping, and internal systems).",
+        "Worked fully in English, participating in daily stand-ups, sprint planning, and direct communication with US-based stakeholders.",
+        "Collaborated within an agile Scrum environment, maintaining high code quality standards through peer reviews."
+      ]
+    },
+    {
       "name": "Eling S.A.",
-      "position": "Administrador Infraestructura/Aplicaciones",
+      "position": "Systems & Software Engineer",
       "startDate": "2011-09",
       "endDate": "2022-06",
       "location": "Córdoba, Argentina",
       "tasks": [
-        "Gestión y mantenimiento de servidores Windows y Unix, bases de datos MSSQL y MySQL, Docker y VMWare.",
-        "Desarrollo y mantenimiento de aplicaciones en JavaScript (NodeJS + React) para el monitoreo de servidores internos de la empresa.",
-        "Responsable de aplicaciones Genexus y .NET, encargado de análisis de requerimientos y seguimiento de tareas con el equipo de desarrollo."
-      ],
-      "abilities": ["Windows", "Linux", "Docker"]
-    },
-    {
-      "name": "Plum",
-      "position": "Desarrollador Full Stack",
-      "startDate": "2022-06",
-      "endDate": "2024-01",
-      "location": "Remote",
-      "tasks": [
-        "Desarrollo y mantenimiento de los principales sitios de E-commerce en empresa norteamericana utilizando .NET.",
-        "Enfoque en el front-end, mejorando la experiencia UX/UI tanto para escritorio como para dispositivos móviles.",
-        "Implementación de tareas backend (backoffice) e integración de APIs de Exigo (pasarela pagos, envíos, etc).",
-        "Gestión completa del código fuente de los proyectos a través de GitHub, siguiendo buenas prácticas y obteniendo un alto índice de aprobación en revisiones de código.",
-        "Integración en el equipo de desarrollo utilizando metodologías ágiles (Scrum) y seguimiento de tareas mediante Monday.",
-        "Participación en dailys completamente en inglés y reuniones con el cliente en Estados Unidos."
-      ],
-      "abilities": ["Windows", "Linux", "Docker"]
-    },
-    {
-      "name": "Freelance",
-      "position": "Desarrollador Full Stack",
-      "startDate": "2017-01",
-      "endDate": "Actualidad",
-      "location": "Remote",
-      "tasks": [
-        "Consultoría IT para el mantenimiento de infraestructura y aplicaciones.",
-        "Desarrollo de proyectos personales y para terceros utilizando lenguajes basados en JavaScript: React, NodeJS, Angular, Typescript y React Native.",
-        "Mis proyectos: github.com/dariotamburello."
-      ],
-      "abilities": ["Windows", "Linux", "Docker"]
+        "Worked across infrastructure and application layers, managing Linux and Windows servers, databases, and containerized environments.",
+        "Developed internal monitoring and tooling applications using Node.js and React to support operational needs.",
+        "Participated in requirement analysis and coordination with development teams for internal systems."
+      ]
     }
   ],
   "education": [
     {
-      "institute": "Colegio IES Siglo 21",
+      "institute": "IES Siglo 21",
       "location": "Córdoba, Argentina",
-      "degree": "Analista en Sistemas de Programación",
+      "degree": "Systems Programming Analyst",
       "startDate": "2012-01",
       "endDate": "2017-12"
     }
   ],
   "skills": {
-    "language": [
-      {
-        "title": "Inglés (B1)",
-        "levels": [
-          {
-            "skill": "Lectura",
-            "value": "Alto"
-          },
-          {
-            "skill": "Escritura",
-            "value": "Alto"
-          },
-          {
-            "skill": "Conversación",
-            "value": "Medio"
-          }
-        ]
-      }
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "C#"
     ],
-    "tecnology": [
-      {
-        "title": "Tecnologías",
-        "levels": [
-          {
-            "skill": "Javascript (Vanilla)",
-            "value": 9
-          },
-          {
-            "skill": "React",
-            "value": 9
-          },
-          {
-            "skill": "NodeJS",
-            "value": 9
-          },
-          {
-            "skill": "Angular",
-            "value": 6
-          },
-          {
-            "skill": "Astro",
-            "value": 8
-          },
-          {
-            "skill": "Typescript",
-            "value": 7
-          },
-          {
-            "skill": "ASP .NET",
-            "value": 7
-          },
-          {
-            "skill": "Git",
-            "value": 9
-          }
-        ]
-      }
+    "frontend": [
+      "React",
+      "Angular",
+      "Astro",
+      "HTML",
+      "CSS"
     ],
-    "interpersonal": [
-      {
-        "title": "Interpersonal",
-        "levels": [
-          {
-            "skill": "Liderazgo",
-            "value": 7
-          },
-          {
-            "skill": "Hablar en público",
-            "value": 7
-          },
-          {
-            "skill": "Diseño UX/UI",
-            "value": 9
-          },
-          {
-            "skill": "Autodidacta",
-            "value": 9
-          }
-        ]
-      }
-    ]
+    "backend": [
+      "Node.js",
+      "ASP.NET",
+      "REST APIs"
+    ],
+    "databases": [
+      "MySQL",
+      "SQL Server",
+      "MongoDB (working knowledge)"
+    ],
+    "cloud_devops": [
+      "Docker",
+      "Git",
+      "AWS (EC2, S3 – foundational experience)"
+    ],
+    "testing": [
+      "Jest (basic)",
+      "Manual testing and debugging in production environments"
+    ],
+    "languages_spoken": {
+      "English": "Professional working proficiency"
+    }
   }
 }
