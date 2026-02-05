@@ -9,8 +9,8 @@ const t = useTranslations(lang);
 <section>
   <HeaderTitle icon="💼">{t("experience.title")}</HeaderTitle>
   {
-    work_experience.toReversed().map((exp) => (
-      <div class="flex flex-col mt-4 pl-2 text-neutral-800 dark:text-neutral-300">
+    work_experience.map((exp) => (
+      <div class="flex flex-col mt-2.5 pl-2 text-neutral-800 dark:text-neutral-300">
         <div class="flex flex-row gap-2 mb-0">
           <p class="text-xs">
             📅 {exp.startDate} - {exp.endDate}
@@ -18,13 +18,13 @@ const t = useTranslations(lang);
           <p class="text-xs">📍 {exp.location}</p>
         </div>
         <div>
-          <h2 class="text-base mb-1">
+          <h2 class="text-base mb-0.5">
             {exp.name} - <strong>{exp.position}</strong>
           </h2>
         </div>
         <ul class="px-4">
           {exp.tasks.map((task) => (
-            <li class="list-disc mb-1 text-xs">{task}</li>
+            <li class="list-disc mb-0.5 text-xs">{task}</li>
           ))}
         </ul>
       </div>

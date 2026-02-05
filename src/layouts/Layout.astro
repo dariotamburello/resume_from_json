@@ -24,7 +24,7 @@ const t = useTranslations(lang)
     <meta name="description" content={summary} />
     <meta name="viewport" content="width=device-width" />
     <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
-    <link rel="preload" as="image" href={image} />
+    {image && <link rel="preload" as="image" href={image} />}
 
     <meta property="og:url" content={url} />
     <meta property="og:type" content="website" />
@@ -109,7 +109,17 @@ const t = useTranslations(lang)
     display: none;
   }
 
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+
   @media print {
+    body {
+      margin: 0;
+      padding: 10mm 8mm;
+    }
+
     .print {
       display: block;
     }
