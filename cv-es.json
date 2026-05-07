@@ -76,10 +76,10 @@
   "skills": {
     "languages": ["JavaScript", "TypeScript", "Python", "C#"],
     "frontend": ["React", "React Native", "Angular", "Astro", "HTML", "CSS"],
-    "backend": ["Node.js", "ASP.NET", "APIs REST"],
+    "backend": ["Node.js", "ASP.NET", "Django", "APIs REST"],
     "databases": ["MySQL", "SQL Server", "MongoDB"],
-    "cloud_devops": ["Docker", "Git", "AWS (EC2, S3 – experiencia básica)"],
-    "testing": ["Jest (básico)", "Testing manual y debugging en producción"],
+    "cloud_devops": ["Docker", "Git", "Firebase", "AWS (EC2, S3 – experiencia básica)"],
+    "ai_tools": ["GitHub Copilot", "Claude Code", "MCP", "BMAD", "n8n"],
     "languages_spoken": {
       "Inglés": "Nivel profesional de trabajo"
     }

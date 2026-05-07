@@ -76,14 +76,15 @@
   "skills": {
     "languages": ["JavaScript", "TypeScript", "Python", "C#"],
     "frontend": ["React", "React Native", "Angular", "Astro", "HTML", "CSS"],
-    "backend": ["Node.js", "ASP.NET", "REST APIs"],
+    "backend": ["Node.js", "ASP.NET", "Django", "REST APIs"],
     "databases": ["MySQL", "SQL Server", "MongoDB"],
     "cloud_devops": [
       "Docker",
       "Git",
+      "Firebase",
       "AWS (EC2, S3 – foundational experience)"
     ],
-    "testing": ["Jest (basic)", "Manual testing"],
+    "ai_tools": ["GitHub Copilot", "Claude Code", "MCP", "BMAD", "n8n"],
     "languages_spoken": {
       "English": "Professional working proficiency"
     }

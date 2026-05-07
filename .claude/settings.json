@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"d:\\\\Repos\\\\resume_from_json\" -Recurse -Depth 3)",
+      "Bash(Select-Object FullName)",
+      "Bash(python -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('testing items:', d['skills'].get\\('testing', []\\)\\)\")"
+    ]
+  }
+}

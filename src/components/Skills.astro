@@ -11,69 +11,69 @@ import HeaderTitle from "./common/HeaderTitle.astro";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
-const { languages, frontend, backend, databases, cloud_devops, testing, languages_spoken } = skills;
+const { languages, frontend, backend, databases, cloud_devops, ai_tools, languages_spoken } = skills;
 ---
 
 <section class="mt-2">
   <HeaderTitle icon="💠">{t("skills.title")}</HeaderTitle>
   <div class="px-4 text-neutral-800 dark:text-neutral-300">
 
-    <div class="flex flex-col mb-2.5">
-      <h2 class="text-sm font-semibold mb-1.5">{t("skills.languages")}</h2>
-      <div class="flex flex-wrap gap-1.5">
+    <div class="flex flex-col mb-2.5 print:mb-1">
+      <h2 class="text-sm font-semibold mb-1.5 print:mb-0.5">{t("skills.languages")}</h2>
+      <div class="flex flex-wrap gap-1.5 print:gap-1">
         {languages.map((lang) => (
           <span class="text-xs bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900/40 dark:to-blue-800/40 text-blue-900 dark:text-blue-200 px-3 py-1 rounded-full shadow-sm border border-blue-300/30 dark:border-blue-700/30 hover:shadow-md transition-shadow">{lang}</span>
         ))}
       </div>
     </div>
 
-    <div class="flex flex-col mb-2.5">
-      <h2 class="text-sm font-semibold mb-1.5">{t("skills.frontend")}</h2>
-      <div class="flex flex-wrap gap-1.5">
+    <div class="flex flex-col mb-2.5 print:mb-1">
+      <h2 class="text-sm font-semibold mb-1.5 print:mb-0.5">{t("skills.frontend")}</h2>
+      <div class="flex flex-wrap gap-1.5 print:gap-1">
         {frontend.map((tech) => (
           <span class="text-xs bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900/40 dark:to-purple-800/40 text-purple-900 dark:text-purple-200 px-3 py-1 rounded-full shadow-sm border border-purple-300/30 dark:border-purple-700/30 hover:shadow-md transition-shadow">{tech}</span>
         ))}
       </div>
     </div>
 
-    <div class="flex flex-col mb-2.5">
-      <h2 class="text-sm font-semibold mb-1.5">{t("skills.backend")}</h2>
-      <div class="flex flex-wrap gap-1.5">
+    <div class="flex flex-col mb-2.5 print:mb-1">
+      <h2 class="text-sm font-semibold mb-1.5 print:mb-0.5">{t("skills.backend")}</h2>
+      <div class="flex flex-wrap gap-1.5 print:gap-1">
         {backend.map((tech) => (
           <span class="text-xs bg-gradient-to-br from-green-100 to-green-200 dark:from-green-900/40 dark:to-green-800/40 text-green-900 dark:text-green-200 px-3 py-1 rounded-full shadow-sm border border-green-300/30 dark:border-green-700/30 hover:shadow-md transition-shadow">{tech}</span>
         ))}
       </div>
     </div>
 
-    <div class="flex flex-col mb-2.5">
-      <h2 class="text-sm font-semibold mb-1.5">{t("skills.databases")}</h2>
-      <div class="flex flex-wrap gap-1.5">
+    <div class="flex flex-col mb-2.5 print:mb-1">
+      <h2 class="text-sm font-semibold mb-1.5 print:mb-0.5">{t("skills.databases")}</h2>
+      <div class="flex flex-wrap gap-1.5 print:gap-1">
         {databases.map((db) => (
           <span class="text-xs bg-gradient-to-br from-orange-100 to-orange-200 dark:from-orange-900/40 dark:to-orange-800/40 text-orange-900 dark:text-orange-200 px-3 py-1 rounded-full shadow-sm border border-orange-300/30 dark:border-orange-700/30 hover:shadow-md transition-shadow">{db}</span>
         ))}
       </div>
     </div>
 
-    <div class="flex flex-col mb-2.5">
-      <h2 class="text-sm font-semibold mb-1.5">{t("skills.cloud_devops")}</h2>
-      <div class="flex flex-wrap gap-1.5">
+    <div class="flex flex-col mb-2.5 print:mb-1">
+      <h2 class="text-sm font-semibold mb-1.5 print:mb-0.5">{t("skills.cloud_devops")}</h2>
+      <div class="flex flex-wrap gap-1.5 print:gap-1">
         {cloud_devops.map((tool) => (
           <span class="text-xs bg-gradient-to-br from-cyan-100 to-cyan-200 dark:from-cyan-900/40 dark:to-cyan-800/40 text-cyan-900 dark:text-cyan-200 px-3 py-1 rounded-full shadow-sm border border-cyan-300/30 dark:border-cyan-700/30 hover:shadow-md transition-shadow">{tool}</span>
         ))}
       </div>
     </div>
 
-    <div class="flex flex-col mb-2.5">
-      <h2 class="text-sm font-semibold mb-1.5">{t("skills.testing")}</h2>
-      <div class="flex flex-wrap gap-1.5">
-        {testing.map((test) => (
-          <span class="text-xs bg-gradient-to-br from-pink-100 to-pink-200 dark:from-pink-900/40 dark:to-pink-800/40 text-pink-900 dark:text-pink-200 px-3 py-1 rounded-full shadow-sm border border-pink-300/30 dark:border-pink-700/30 hover:shadow-md transition-shadow">{test}</span>
+    <div class="flex flex-col mb-2.5 print:mb-1">
+      <h2 class="text-sm font-semibold mb-1.5 print:mb-0.5">{t("skills.ai_tools")}</h2>
+      <div class="flex flex-wrap gap-1.5 print:gap-1">
+        {ai_tools.map((tool) => (
+          <span class="text-xs bg-gradient-to-br from-pink-100 to-pink-200 dark:from-pink-900/40 dark:to-pink-800/40 text-pink-900 dark:text-pink-200 px-3 py-1 rounded-full shadow-sm border border-pink-300/30 dark:border-pink-700/30 hover:shadow-md transition-shadow">{tool}</span>
         ))}
       </div>
     </div>
 
-    <div class="flex flex-col mb-2">
-      <h2 class="text-sm font-semibold mb-1.5">{t("skills.languages_spoken")}</h2>
+    <div class="flex flex-col mb-2 print:mb-1">
+      <h2 class="text-sm font-semibold mb-1.5 print:mb-0.5">{t("skills.languages_spoken")}</h2>
       {Object.entries(languages_spoken).map(([language, level]) => (
         <p class="text-xs mb-0.5">
           <strong>{language}:</strong> {level}

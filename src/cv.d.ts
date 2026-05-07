@@ -42,7 +42,7 @@ export interface CV {
     backend: string[];
     databases: string[];
     cloud_devops: string[];
-    testing: string[];
+    ai_tools: string[];
     languages_spoken: Record<string, string>;
   };
 }

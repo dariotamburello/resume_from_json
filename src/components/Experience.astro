@@ -2,6 +2,8 @@
 import { getLangFromUrl, useTranslations } from "@/i18n/utils";
 const { work_experience } = Astro.props.cv;
 import HeaderTitle from "./common/HeaderTitle.astro";
+import Calendar from "src/icons/Calendar.astro";
+import WorldMap from "src/icons/WorldMap.astro";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
@@ -12,10 +14,12 @@ const t = useTranslations(lang);
     work_experience.map((exp) => (
       <div class="flex flex-col mt-2.5 pl-2 text-neutral-800 dark:text-neutral-300">
         <div class="flex flex-row gap-2 mb-0">
-          <p class="text-xs">
-            📅 {exp.startDate} - {exp.endDate}
+          <p class="text-xs flex items-center gap-1">
+            <Calendar /> {exp.startDate} - {exp.endDate}
           </p>
-          <p class="text-xs">📍 {exp.location}</p>
+          <p class="text-xs flex items-center gap-1">
+            <WorldMap /> {exp.location}
+          </p>
         </div>
         <div>
           <h2 class="text-base mb-0.5">
